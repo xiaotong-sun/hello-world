@@ -1,24 +1,41 @@
-#EntryTag, #blogTitle h1 {
+#EntryTag,
+#blogTitle h1 {
     margin-top: 20px
 }
 
-#EntryTag a, .postSticky {
+#EntryTag a,
+.postSticky {
     background: #6fa3ef
 }
 
-#blogTitle h1 a:hover, .dayTitle a, a, a:active, a:link, a:visited {
+#blogTitle h1 a:hover,
+.dayTitle a,
+a,
+a:active,
+a:link,
+a:visited {
     color: #5c8ec6
 }
 
-#calendar table a:hover, #navList a:hover, .postDesc a:hover, a:active, a:hover, a:link, a:visited, button {
+#calendar table a:hover,
+#navList a:hover,
+.postDesc a:hover,
+a:active,
+a:hover,
+a:link,
+a:visited,
+button {
     text-decoration: none
 }
 
-#mainContent, #sideBar, #topics {
+#mainContent,
+#sideBar,
+#topics {
     -o-text-overflow: ellipsis
 }
 
-*, .Cal {
+*,
+.Cal {
     padding: 0
 }
 
@@ -57,7 +74,9 @@
     background-color: #555
 }
 
-#mainContent, #sideBar, #topics {
+#mainContent,
+#sideBar,
+#topics {
     text-overflow: ellipsis;
     overflow: hidden
 }
@@ -66,7 +85,8 @@
     background: #E8A258
 }
 
-#BlogPostCategory a span, #EntryTag a span {
+#BlogPostCategory a span,
+#EntryTag a span {
     margin-right: 3px
 }
 
@@ -76,11 +96,14 @@
     margin-top: 10px
 }
 
-#navList a, .dayTitle, button {
+#navList a,
+.dayTitle,
+button {
     text-align: center
 }
 
-#home, .inner {
+#home,
+.inner {
     margin: 0 auto
 }
 
@@ -114,7 +137,8 @@ table {
     border-spacing: 0
 }
 
-fieldset, img {
+fieldset,
+img {
     border: 0
 }
 
@@ -214,7 +238,11 @@ b {
     display: none;
 }
 
-#blog-calendar td, #blog-calendar th, .Cal, .btn_my_zzk, .dayTitle {
+#blog-calendar td,
+#blog-calendar th,
+.Cal,
+.btn_my_zzk,
+.dayTitle {
     font-size: 12px
 }
 
@@ -236,7 +264,9 @@ b {
     padding-top: 19px
 }
 
-#navList a:active, #navList a:link, #navList a:visited {
+#navList a:active,
+#navList a:link,
+#navList a:visited {
     color: #6a6a6a;
     font-weight: 700
 }
@@ -272,12 +302,14 @@ b {
     width: 100%
 }
 
-.day, .entrylistItem:not(:last-of-type) {
+.day,
+.entrylistItem:not(:last-of-type) {
     min-height: 10px;
     border-bottom: #e9e9e9 1px solid
 }
 
-.day:after, .entrylistItem:not(:last-of-type):after {
+.day:after,
+.entrylistItem:not(:last-of-type):after {
     content: "";
     width: 7px;
     height: 7px;
@@ -292,7 +324,10 @@ b {
     word-wrap: break-word
 }
 
-.btn_my_zzk, .c_b_p_desc_img, .day:after, .dayTitle {
+.btn_my_zzk,
+.c_b_p_desc_img,
+.day:after,
+.dayTitle {
     position: absolute
 }
 
@@ -362,7 +397,10 @@ b {
     opacity: .95
 }
 
-.postCon, .postDesc, .postSeparator, .postTitle {
+.postCon,
+.postDesc,
+.postSeparator,
+.postTitle {
     width: 100%;
     clear: both
 }
@@ -372,7 +410,8 @@ b {
     float: right
 }
 
-.postTitle a:active, .postTitle a:visited {
+.postTitle a:active,
+.postTitle a:visited {
     color: #4A4A4A;
     transition: color .3s ease
 }
@@ -400,7 +439,8 @@ b {
     color: #000
 }
 
-.entrylistPostSummary, .postCon {
+.entrylistPostSummary,
+.postCon {
     font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
     line-height: 1.7em;
     word-wrap: break-word;
@@ -426,12 +466,12 @@ b {
     display: inline-block
 }
 
-.postMeta > i {
+.postMeta>i {
     font-size: 15px;
     margin: 0 5px
 }
 
-.postMeta > i:not(:first-child) {
+.postMeta>i:not(:first-child) {
     margin-left: 10px
 }
 
@@ -451,15 +491,14 @@ b {
 #cnblogs_post_body h2:hover::after,
 #cnblogs_post_body h3:hover::after,
 #cnblogs_post_body h4:hover::after,
-#cnblogs_post_body h5:hover::after
-{
+#cnblogs_post_body h5:hover::after {
     content: "#";
-    color: rgba(13,110,253,0.5);
+    color: rgba(13, 110, 253, 0.5);
     margin-left: 5px;
     transition: color 0.15s ease-in-out;
 }
 
-p.article-info-text > .postMeta {
+p.article-info-text>.postMeta {
     font-size: 16px;
     font-weight: 700;
     color: rgba(255, 255, 255, .9);
@@ -467,15 +506,17 @@ p.article-info-text > .postMeta {
     text-shadow: 0 3px 6px rgba(0, 0, 0, .5)
 }
 
-p.article-info-text > .postMeta i {
+p.article-info-text>.postMeta i {
     font-size: 16px
 }
 
-p.article-info-text > .postMeta br {
+p.article-info-text>.postMeta br {
     display: none;
 }
 
-.postDesc a:active, .postDesc a:link, .postDesc a:visited {
+.postDesc a:active,
+.postDesc a:link,
+.postDesc a:visited {
     color: #666
 }
 
@@ -547,7 +588,8 @@ p.article-info-text > .postMeta br {
     right: -35px
 }
 
-.input_my_zzk:focus, .input_my_zzk:hover {
+.input_my_zzk:focus,
+.input_my_zzk:hover {
     border: 1px solid #666
 }
 
@@ -555,7 +597,22 @@ p.article-info-text > .postMeta br {
     transition: all .4s linear 0s
 }
 
-.catList, .catListArticleArchive, .catListArticleCategory, .catListBlogRank, .catListComment, .catListEssay, .catListFeedback, .catListImageCategory, .catListLink, .catListNoteBook, .catListPostArchive, .catListPostCategory, .catListTag, .catListView, .mySearch, .newsItem {
+.catList,
+.catListArticleArchive,
+.catListArticleCategory,
+.catListBlogRank,
+.catListComment,
+.catListEssay,
+.catListFeedback,
+.catListImageCategory,
+.catListLink,
+.catListNoteBook,
+.catListPostArchive,
+.catListPostCategory,
+.catListTag,
+.catListView,
+.mySearch,
+.newsItem {
     background: #fff;
     margin-bottom: 35px;
     word-wrap: break-word
@@ -601,12 +658,15 @@ p.article-info-text > .postMeta br {
     font-family: arial
 }
 
-.CalOtherMonthDay, .CalWeekendDay {
+.CalOtherMonthDay,
+.CalWeekendDay {
     padding-top: 4px;
     padding-bottom: 4px
 }
 
-#calendar table a:active, #calendar table a:link, #calendar table a:visited {
+#calendar table a:active,
+#calendar table a:link,
+#calendar table a:visited {
     font-weight: 700
 }
 
@@ -620,7 +680,8 @@ p.article-info-text > .postMeta br {
     background: #2d2d2b
 }
 
-.CalDayHeader, .CalWeekendDay {
+.CalDayHeader,
+.CalWeekendDay {
     background: #111
 }
 
@@ -628,7 +689,9 @@ p.article-info-text > .postMeta br {
     color: #3c3c3c
 }
 
-#calendar .CalNextPrev a:active, #calendar .CalNextPrev a:link, #calendar .CalNextPrev a:visited {
+#calendar .CalNextPrev a:active,
+#calendar .CalNextPrev a:link,
+#calendar .CalNextPrev a:visited {
     font-weight: 700;
     padding-left: 10px;
     padding-right: 15px
@@ -662,7 +725,9 @@ p.article-info-text > .postMeta br {
     font-size: 10px
 }
 
-.Cal a:active, .Cal a:link, .Cal a:visited {
+.Cal a:active,
+.Cal a:link,
+.Cal a:visited {
     color: #ff9;
     text-decoration: underline
 }
@@ -684,7 +749,10 @@ p.article-info-text > .postMeta br {
     text-align: left
 }
 
-#sideBarMain ul, .catListComment, .page-description, .pfl_feedback_area_title {
+#sideBarMain ul,
+.catListComment,
+.page-description,
+.pfl_feedback_area_title {
     line-height: 1.5em;
 }
 
@@ -715,11 +783,19 @@ p.article-info-text > .postMeta br {
     padding-left: 5px
 }
 
-#BlogPostCategory, #BlogPostCategory a:active, #BlogPostCategory a:link, #BlogPostCategory a:visited, #EntryTag, #EntryTag a:active, #EntryTag a:link, #EntryTag a:visited {
+#BlogPostCategory,
+#BlogPostCategory a:active,
+#BlogPostCategory a:link,
+#BlogPostCategory a:visited,
+#EntryTag,
+#EntryTag a:active,
+#EntryTag a:link,
+#EntryTag a:visited {
     color: #666
 }
 
-#BlogPostCategory a, #EntryTag a {
+#BlogPostCategory a,
+#EntryTag a {
     height: 20px;
     line-height: 20px;
     color: #fff !important;
@@ -730,7 +806,8 @@ p.article-info-text > .postMeta br {
     font-size: 14px
 }
 
-#BlogPostCategory a:hover, #EntryTag a:hover {
+#BlogPostCategory a:hover,
+#EntryTag a:hover {
     transition: all .3s linear 0s;
     opacity: .8
 }
@@ -744,7 +821,9 @@ p.article-info-text > .postMeta br {
     background: 0 0
 }
 
-.feedbackListSubtitle-louzhu:after, .feedbackListSubtitle:after, .feedbackListSubtitle:before {
+.feedbackListSubtitle-louzhu:after,
+.feedbackListSubtitle:after,
+.feedbackListSubtitle:before {
     top: 11px;
     right: 100%;
     left: -16px;
@@ -766,7 +845,9 @@ p.article-info-text > .postMeta br {
     margin: 0 2px
 }
 
-.feedbackListSubtitle a:active, .feedbackListSubtitle a:link, .feedbackListSubtitle a:visited {
+.feedbackListSubtitle a:active,
+.feedbackListSubtitle a:link,
+.feedbackListSubtitle a:visited {
     color: #777;
     font-weight: 700
 }
@@ -785,7 +866,8 @@ p.article-info-text > .postMeta br {
     border-width: 8px
 }
 
-.feedbackListSubtitle-louzhu:after, .feedbackListSubtitle:after {
+.feedbackListSubtitle-louzhu:after,
+.feedbackListSubtitle:after {
     border-color: transparent;
     margin-top: 1px;
     margin-left: 2px;
@@ -875,7 +957,8 @@ div#tbCommentBodyPreview {
     width: 320px
 }
 
-.commentTextBox:hover, .commenttb:hover {
+.commentTextBox:hover,
+.commenttb:hover {
     color: #333;
     border-color: rgba(82, 168, 236, .8);
     transition: all .4s linear 0s
@@ -888,7 +971,9 @@ div#tbCommentBodyPreview {
     box-shadow: inset 1px 1px 1px rgba(0, 0, 0, .075), 0 0 4px rgba(82, 168, 236, .6)
 }
 
-#Profile1_panelAdd input[type=text]:hover, #Profile1_txtContent:hover, .commentTextBox:hover {
+#Profile1_panelAdd input[type=text]:hover,
+#Profile1_txtContent:hover,
+.commentTextBox:hover {
     -webkit-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, .075), 0 0 4px rgba(82, 168, 236, .6);
     -moz-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, .075), 0 0 4px rgba(82, 168, 236, .6);
     outline: 0;
@@ -996,7 +1081,8 @@ div#tbCommentBodyPreview {
     outline: 0
 }
 
-.commentbox_tab.active, .commentbox_tab:hover {
+.commentbox_tab.active,
+.commentbox_tab:hover {
     border-bottom: 0;
     color: #5c8ec6
 }
@@ -1010,7 +1096,9 @@ div#tbCommentBodyPreview {
     background: #71ace5
 }
 
-.PostListTitle, .entrylistTitle, .thumbTitle {
+.PostListTitle,
+.entrylistTitle,
+.thumbTitle {
     height: 38px;
     line-height: 38px;
     font: normal normal 16px/35px "Microsoft YaHei";
@@ -1019,7 +1107,10 @@ div#tbCommentBodyPreview {
     padding: 0
 }
 
-.dev__developer, .entrylistPosttitle a:active, .entrylistPosttitle a:link, .entrylistPosttitle a:visited {
+.dev__developer,
+.entrylistPosttitle a:active,
+.entrylistPosttitle a:link,
+.entrylistPosttitle a:visited {
     font-family: "Open Sans", "Microsoft Jhenghei", "Microsoft Yahei", sans-serif
 }
 
@@ -1054,7 +1145,9 @@ div#tbCommentBodyPreview {
     width: 100%
 }
 
-.entrylistPosttitle a:active, .entrylistPosttitle a:link, .entrylistPosttitle a:visited {
+.entrylistPosttitle a:active,
+.entrylistPosttitle a:link,
+.entrylistPosttitle a:visited {
     transition: all .4s linear 0s;
     background-color: rgba(0, 0, 0, 0);
     color: #4a4a4a;
@@ -1073,7 +1166,8 @@ div#tbCommentBodyPreview {
     color: #000
 }
 
-.entrylistItemPostDesc, .sb-title {
+.entrylistItemPostDesc,
+.sb-title {
     font-family: "Open Sans", sans-serif
 }
 
@@ -1090,7 +1184,9 @@ div#tbCommentBodyPreview {
     display: none
 }
 
-.entrylistItemPostDesc a:active, .entrylistItemPostDesc a:link, .entrylistItemPostDesc a:visited {
+.entrylistItemPostDesc a:active,
+.entrylistItemPostDesc a:link,
+.entrylistItemPostDesc a:visited {
     color: #666
 }
 
@@ -1109,11 +1205,13 @@ div#tbCommentBodyPreview {
     border: none
 }
 
-#footer, .pager {
+#footer,
+.pager {
     font-size: 12px
 }
 
-.divPhoto, .pager {
+.divPhoto,
+.pager {
     margin-right: 10px
 }
 
@@ -1126,7 +1224,8 @@ div#tbCommentBodyPreview {
     color: #9EABB3
 }
 
-#nav_next_page a, .pager a {
+#nav_next_page a,
+.pager a {
     display: inline-block;
     min-width: 18px;
     text-align: center;
@@ -1137,7 +1236,12 @@ div#tbCommentBodyPreview {
     transition: all .2s ease
 }
 
-#nav_next_page a:active, #nav_next_page a:link, #nav_next_page a:visited, .pager a:active, .pager a:link, .pager a:visited {
+#nav_next_page a:active,
+#nav_next_page a:link,
+#nav_next_page a:visited,
+.pager a:active,
+.pager a:link,
+.pager a:visited {
     color: #9EABB3 !important
 }
 
@@ -1149,7 +1253,8 @@ div#tbCommentBodyPreview {
     padding: 3px 5px
 }
 
-#nav_next_page a:hover, .pager a:hover {
+#nav_next_page a:hover,
+.pager a:hover {
     background: #fff;
     color: #889093;
     border-color: #98a0a4
@@ -1203,7 +1308,8 @@ div#tbCommentBodyPreview {
     float: left
 }
 
-.commentbox_title_right, .pfl_feedbackManage {
+.commentbox_title_right,
+.pfl_feedbackManage {
     float: right
 }
 
@@ -1232,7 +1338,8 @@ div#tbCommentBodyPreview {
     float: left
 }
 
-#Profile1_panelAdd input[type=text], #Profile1_txtContent {
+#Profile1_panelAdd input[type=text],
+#Profile1_txtContent {
     padding: 8px;
     margin-bottom: 10px;
     color: #555;
@@ -1242,13 +1349,15 @@ div#tbCommentBodyPreview {
     -webkit-border-radius: 3px
 }
 
-#Profile1_panelAdd input[type=text]:hover, #Profile1_txtContent:hover {
+#Profile1_panelAdd input[type=text]:hover,
+#Profile1_txtContent:hover {
     color: #333;
     border-color: rgba(82, 168, 236, .8);
     transition: all .4s linear 0s
 }
 
-#Profile1_panelAdd input[type=text]:focus, #Profile1_txtContent:focus {
+#Profile1_panelAdd input[type=text]:focus,
+#Profile1_txtContent:focus {
     outline: 0;
     border-color: rgba(82, 168, 236, .8)
 }
@@ -1295,7 +1404,9 @@ div#tbCommentBodyPreview {
     text-overflow: ellipsis
 }
 
-#footer, .main-header, .scroll-down {
+#footer,
+.main-header,
+.scroll-down {
     position: absolute
 }
 
@@ -1330,55 +1441,74 @@ div#tbCommentBodyPreview {
 }
 
 @-moz-keyframes my-face {
-    2%, 24%, 80% {
+
+    2%,
+    24%,
+    80% {
         -webkit-transform: translate(0, 1.5px) rotate(1.5deg);
         -moz-transform: translate(0, 1.5px) rotate(1.5deg);
         -ms-transform: translate(0, 1.5px) rotate(1.5deg);
         -o-transform: translate(0, 1.5px) rotate(1.5deg);
         transform: translate(0, 1.5px) rotate(1.5deg)
     }
-    4%, 68%, 98% {
+
+    4%,
+    68%,
+    98% {
         -webkit-transform: translate(0, -1.5px) rotate(-.5deg);
         -moz-transform: translate(0, -1.5px) rotate(-.5deg);
         -ms-transform: translate(0, -1.5px) rotate(-.5deg);
         -o-transform: translate(0, -1.5px) rotate(-.5deg);
         transform: translate(0, -1.5px) rotate(-.5deg)
     }
-    38%, 6% {
+
+    38%,
+    6% {
         -webkit-transform: translate(0, 1.5px) rotate(-1.5deg);
         -moz-transform: translate(0, 1.5px) rotate(-1.5deg);
         -ms-transform: translate(0, 1.5px) rotate(-1.5deg);
         -o-transform: translate(0, 1.5px) rotate(-1.5deg);
         transform: translate(0, 1.5px) rotate(-1.5deg)
     }
-    8%, 86% {
+
+    8%,
+    86% {
         -webkit-transform: translate(0, -1.5px) rotate(-1.5deg);
         -moz-transform: translate(0, -1.5px) rotate(-1.5deg);
         -ms-transform: translate(0, -1.5px) rotate(-1.5deg);
         -o-transform: translate(0, -1.5px) rotate(-1.5deg);
         transform: translate(0, -1.5px) rotate(-1.5deg)
     }
-    10%, 72% {
+
+    10%,
+    72% {
         -webkit-transform: translate(0, 2.5px) rotate(1.5deg);
         -moz-transform: translate(0, 2.5px) rotate(1.5deg);
         -ms-transform: translate(0, 2.5px) rotate(1.5deg);
         -o-transform: translate(0, 2.5px) rotate(1.5deg);
         transform: translate(0, 2.5px) rotate(1.5deg)
     }
-    12%, 64%, 78%, 96% {
+
+    12%,
+    64%,
+    78%,
+    96% {
         -webkit-transform: translate(0, -.5px) rotate(1.5deg);
         -moz-transform: translate(0, -.5px) rotate(1.5deg);
         -ms-transform: translate(0, -.5px) rotate(1.5deg);
         -o-transform: translate(0, -.5px) rotate(1.5deg);
         transform: translate(0, -.5px) rotate(1.5deg)
     }
-    14%, 54% {
+
+    14%,
+    54% {
         -webkit-transform: translate(0, -1.5px) rotate(1.5deg);
         -moz-transform: translate(0, -1.5px) rotate(1.5deg);
         -ms-transform: translate(0, -1.5px) rotate(1.5deg);
         -o-transform: translate(0, -1.5px) rotate(1.5deg);
         transform: translate(0, -1.5px) rotate(1.5deg)
     }
+
     16% {
         -webkit-transform: translate(0, -.5px) rotate(-1.5deg);
         -moz-transform: translate(0, -.5px) rotate(-1.5deg);
@@ -1386,27 +1516,35 @@ div#tbCommentBodyPreview {
         -o-transform: translate(0, -.5px) rotate(-1.5deg);
         transform: translate(0, -.5px) rotate(-1.5deg)
     }
-    18%, 22% {
+
+    18%,
+    22% {
         -webkit-transform: translate(0, .5px) rotate(-1.5deg);
         -moz-transform: translate(0, .5px) rotate(-1.5deg);
         -ms-transform: translate(0, .5px) rotate(-1.5deg);
         -o-transform: translate(0, .5px) rotate(-1.5deg);
         transform: translate(0, .5px) rotate(-1.5deg)
     }
-    20%, 36%, 46% {
+
+    20%,
+    36%,
+    46% {
         -webkit-transform: translate(0, -1.5px) rotate(2.5deg);
         -moz-transform: translate(0, -1.5px) rotate(2.5deg);
         -ms-transform: translate(0, -1.5px) rotate(2.5deg);
         -o-transform: translate(0, -1.5px) rotate(2.5deg);
         transform: translate(0, -1.5px) rotate(2.5deg)
     }
-    26%, 50% {
+
+    26%,
+    50% {
         -webkit-transform: translate(0, .5px) rotate(.5deg);
         -moz-transform: translate(0, .5px) rotate(.5deg);
         -ms-transform: translate(0, .5px) rotate(.5deg);
         -o-transform: translate(0, .5px) rotate(.5deg);
         transform: translate(0, .5px) rotate(.5deg)
     }
+
     28% {
         -webkit-transform: translate(0, .5px) rotate(1.5deg);
         -moz-transform: translate(0, .5px) rotate(1.5deg);
@@ -1414,20 +1552,29 @@ div#tbCommentBodyPreview {
         -o-transform: translate(0, .5px) rotate(1.5deg);
         transform: translate(0, .5px) rotate(1.5deg)
     }
-    30%, 40%, 62%, 76%, 88% {
+
+    30%,
+    40%,
+    62%,
+    76%,
+    88% {
         -webkit-transform: translate(0, -.5px) rotate(2.5deg);
         -moz-transform: translate(0, -.5px) rotate(2.5deg);
         -ms-transform: translate(0, -.5px) rotate(2.5deg);
         -o-transform: translate(0, -.5px) rotate(2.5deg);
         transform: translate(0, -.5px) rotate(2.5deg)
     }
-    32%, 34%, 66% {
+
+    32%,
+    34%,
+    66% {
         -webkit-transform: translate(0, 1.5px) rotate(-.5deg);
         -moz-transform: translate(0, 1.5px) rotate(-.5deg);
         -ms-transform: translate(0, 1.5px) rotate(-.5deg);
         -o-transform: translate(0, 1.5px) rotate(-.5deg);
         transform: translate(0, 1.5px) rotate(-.5deg)
     }
+
     42% {
         -webkit-transform: translate(0, 2.5px) rotate(-1.5deg);
         -moz-transform: translate(0, 2.5px) rotate(-1.5deg);
@@ -1435,27 +1582,36 @@ div#tbCommentBodyPreview {
         -o-transform: translate(0, 2.5px) rotate(-1.5deg);
         transform: translate(0, 2.5px) rotate(-1.5deg)
     }
-    44%, 70% {
+
+    44%,
+    70% {
         -webkit-transform: translate(0, 1.5px) rotate(.5deg);
         -moz-transform: translate(0, 1.5px) rotate(.5deg);
         -ms-transform: translate(0, 1.5px) rotate(.5deg);
         -o-transform: translate(0, 1.5px) rotate(.5deg);
         transform: translate(0, 1.5px) rotate(.5deg)
     }
-    48%, 74%, 82% {
+
+    48%,
+    74%,
+    82% {
         -webkit-transform: translate(0, -.5px) rotate(.5deg);
         -moz-transform: translate(0, -.5px) rotate(.5deg);
         -ms-transform: translate(0, -.5px) rotate(.5deg);
         -o-transform: translate(0, -.5px) rotate(.5deg);
         transform: translate(0, -.5px) rotate(.5deg)
     }
-    52%, 56%, 60% {
+
+    52%,
+    56%,
+    60% {
         -webkit-transform: translate(0, 2.5px) rotate(2.5deg);
         -moz-transform: translate(0, 2.5px) rotate(2.5deg);
         -ms-transform: translate(0, 2.5px) rotate(2.5deg);
         -o-transform: translate(0, 2.5px) rotate(2.5deg);
         transform: translate(0, 2.5px) rotate(2.5deg)
     }
+
     58% {
         -webkit-transform: translate(0, .5px) rotate(2.5deg);
         -moz-transform: translate(0, .5px) rotate(2.5deg);
@@ -1463,6 +1619,7 @@ div#tbCommentBodyPreview {
         -o-transform: translate(0, .5px) rotate(2.5deg);
         transform: translate(0, .5px) rotate(2.5deg)
     }
+
     84% {
         -webkit-transform: translate(0, 1.5px) rotate(2.5deg);
         -moz-transform: translate(0, 1.5px) rotate(2.5deg);
@@ -1470,6 +1627,7 @@ div#tbCommentBodyPreview {
         -o-transform: translate(0, 1.5px) rotate(2.5deg);
         transform: translate(0, 1.5px) rotate(2.5deg)
     }
+
     90% {
         -webkit-transform: translate(0, 2.5px) rotate(-.5deg);
         -moz-transform: translate(0, 2.5px) rotate(-.5deg);
@@ -1477,6 +1635,7 @@ div#tbCommentBodyPreview {
         -o-transform: translate(0, 2.5px) rotate(-.5deg);
         transform: translate(0, 2.5px) rotate(-.5deg)
     }
+
     92% {
         -webkit-transform: translate(0, .5px) rotate(-.5deg);
         -moz-transform: translate(0, .5px) rotate(-.5deg);
@@ -1484,6 +1643,7 @@ div#tbCommentBodyPreview {
         -o-transform: translate(0, .5px) rotate(-.5deg);
         transform: translate(0, .5px) rotate(-.5deg)
     }
+
     94% {
         -webkit-transform: translate(0, 2.5px) rotate(.5deg);
         -moz-transform: translate(0, 2.5px) rotate(.5deg);
@@ -1491,7 +1651,9 @@ div#tbCommentBodyPreview {
         -o-transform: translate(0, 2.5px) rotate(.5deg);
         transform: translate(0, 2.5px) rotate(.5deg)
     }
-    0%, 100% {
+
+    0%,
+    100% {
         -webkit-transform: translate(0, 0) rotate(0);
         -moz-transform: translate(0, 0) rotate(0);
         -ms-transform: translate(0, 0) rotate(0);
@@ -1501,55 +1663,74 @@ div#tbCommentBodyPreview {
 }
 
 @-webkit-keyframes my-face {
-    2%, 24%, 80% {
+
+    2%,
+    24%,
+    80% {
         -webkit-transform: translate(0, 1.5px) rotate(1.5deg);
         -moz-transform: translate(0, 1.5px) rotate(1.5deg);
         -ms-transform: translate(0, 1.5px) rotate(1.5deg);
         -o-transform: translate(0, 1.5px) rotate(1.5deg);
         transform: translate(0, 1.5px) rotate(1.5deg)
     }
-    4%, 68%, 98% {
+
+    4%,
+    68%,
+    98% {
         -webkit-transform: translate(0, -1.5px) rotate(-.5deg);
         -moz-transform: translate(0, -1.5px) rotate(-.5deg);
         -ms-transform: translate(0, -1.5px) rotate(-.5deg);
         -o-transform: translate(0, -1.5px) rotate(-.5deg);
         transform: translate(0, -1.5px) rotate(-.5deg)
     }
-    38%, 6% {
+
+    38%,
+    6% {
         -webkit-transform: translate(0, 1.5px) rotate(-1.5deg);
         -moz-transform: translate(0, 1.5px) rotate(-1.5deg);
         -ms-transform: translate(0, 1.5px) rotate(-1.5deg);
         -o-transform: translate(0, 1.5px) rotate(-1.5deg);
         transform: translate(0, 1.5px) rotate(-1.5deg)
     }
-    8%, 86% {
+
+    8%,
+    86% {
         -webkit-transform: translate(0, -1.5px) rotate(-1.5deg);
         -moz-transform: translate(0, -1.5px) rotate(-1.5deg);
         -ms-transform: translate(0, -1.5px) rotate(-1.5deg);
         -o-transform: translate(0, -1.5px) rotate(-1.5deg);
         transform: translate(0, -1.5px) rotate(-1.5deg)
     }
-    10%, 72% {
+
+    10%,
+    72% {
         -webkit-transform: translate(0, 2.5px) rotate(1.5deg);
         -moz-transform: translate(0, 2.5px) rotate(1.5deg);
         -ms-transform: translate(0, 2.5px) rotate(1.5deg);
         -o-transform: translate(0, 2.5px) rotate(1.5deg);
         transform: translate(0, 2.5px) rotate(1.5deg)
     }
-    12%, 64%, 78%, 96% {
+
+    12%,
+    64%,
+    78%,
+    96% {
         -webkit-transform: translate(0, -.5px) rotate(1.5deg);
         -moz-transform: translate(0, -.5px) rotate(1.5deg);
         -ms-transform: translate(0, -.5px) rotate(1.5deg);
         -o-transform: translate(0, -.5px) rotate(1.5deg);
         transform: translate(0, -.5px) rotate(1.5deg)
     }
-    14%, 54% {
+
+    14%,
+    54% {
         -webkit-transform: translate(0, -1.5px) rotate(1.5deg);
         -moz-transform: translate(0, -1.5px) rotate(1.5deg);
         -ms-transform: translate(0, -1.5px) rotate(1.5deg);
         -o-transform: translate(0, -1.5px) rotate(1.5deg);
         transform: translate(0, -1.5px) rotate(1.5deg)
     }
+
     16% {
         -webkit-transform: translate(0, -.5px) rotate(-1.5deg);
         -moz-transform: translate(0, -.5px) rotate(-1.5deg);
@@ -1557,27 +1738,35 @@ div#tbCommentBodyPreview {
         -o-transform: translate(0, -.5px) rotate(-1.5deg);
         transform: translate(0, -.5px) rotate(-1.5deg)
     }
-    18%, 22% {
+
+    18%,
+    22% {
         -webkit-transform: translate(0, .5px) rotate(-1.5deg);
         -moz-transform: translate(0, .5px) rotate(-1.5deg);
         -ms-transform: translate(0, .5px) rotate(-1.5deg);
         -o-transform: translate(0, .5px) rotate(-1.5deg);
         transform: translate(0, .5px) rotate(-1.5deg)
     }
-    20%, 36%, 46% {
+
+    20%,
+    36%,
+    46% {
         -webkit-transform: translate(0, -1.5px) rotate(2.5deg);
         -moz-transform: translate(0, -1.5px) rotate(2.5deg);
         -ms-transform: translate(0, -1.5px) rotate(2.5deg);
         -o-transform: translate(0, -1.5px) rotate(2.5deg);
         transform: translate(0, -1.5px) rotate(2.5deg)
     }
-    26%, 50% {
+
+    26%,
+    50% {
         -webkit-transform: translate(0, .5px) rotate(.5deg);
         -moz-transform: translate(0, .5px) rotate(.5deg);
         -ms-transform: translate(0, .5px) rotate(.5deg);
         -o-transform: translate(0, .5px) rotate(.5deg);
         transform: translate(0, .5px) rotate(.5deg)
     }
+
     28% {
         -webkit-transform: translate(0, .5px) rotate(1.5deg);
         -moz-transform: translate(0, .5px) rotate(1.5deg);
@@ -1585,20 +1774,29 @@ div#tbCommentBodyPreview {
         -o-transform: translate(0, .5px) rotate(1.5deg);
         transform: translate(0, .5px) rotate(1.5deg)
     }
-    30%, 40%, 62%, 76%, 88% {
+
+    30%,
+    40%,
+    62%,
+    76%,
+    88% {
         -webkit-transform: translate(0, -.5px) rotate(2.5deg);
         -moz-transform: translate(0, -.5px) rotate(2.5deg);
         -ms-transform: translate(0, -.5px) rotate(2.5deg);
         -o-transform: translate(0, -.5px) rotate(2.5deg);
         transform: translate(0, -.5px) rotate(2.5deg)
     }
-    32%, 34%, 66% {
+
+    32%,
+    34%,
+    66% {
         -webkit-transform: translate(0, 1.5px) rotate(-.5deg);
         -moz-transform: translate(0, 1.5px) rotate(-.5deg);
         -ms-transform: translate(0, 1.5px) rotate(-.5deg);
         -o-transform: translate(0, 1.5px) rotate(-.5deg);
         transform: translate(0, 1.5px) rotate(-.5deg)
     }
+
     42% {
         -webkit-transform: translate(0, 2.5px) rotate(-1.5deg);
         -moz-transform: translate(0, 2.5px) rotate(-1.5deg);
@@ -1606,27 +1804,36 @@ div#tbCommentBodyPreview {
         -o-transform: translate(0, 2.5px) rotate(-1.5deg);
         transform: translate(0, 2.5px) rotate(-1.5deg)
     }
-    44%, 70% {
+
+    44%,
+    70% {
         -webkit-transform: translate(0, 1.5px) rotate(.5deg);
         -moz-transform: translate(0, 1.5px) rotate(.5deg);
         -ms-transform: translate(0, 1.5px) rotate(.5deg);
         -o-transform: translate(0, 1.5px) rotate(.5deg);
         transform: translate(0, 1.5px) rotate(.5deg)
     }
-    48%, 74%, 82% {
+
+    48%,
+    74%,
+    82% {
         -webkit-transform: translate(0, -.5px) rotate(.5deg);
         -moz-transform: translate(0, -.5px) rotate(.5deg);
         -ms-transform: translate(0, -.5px) rotate(.5deg);
         -o-transform: translate(0, -.5px) rotate(.5deg);
         transform: translate(0, -.5px) rotate(.5deg)
     }
-    52%, 56%, 60% {
+
+    52%,
+    56%,
+    60% {
         -webkit-transform: translate(0, 2.5px) rotate(2.5deg);
         -moz-transform: translate(0, 2.5px) rotate(2.5deg);
         -ms-transform: translate(0, 2.5px) rotate(2.5deg);
         -o-transform: translate(0, 2.5px) rotate(2.5deg);
         transform: translate(0, 2.5px) rotate(2.5deg)
     }
+
     58% {
         -webkit-transform: translate(0, .5px) rotate(2.5deg);
         -moz-transform: translate(0, .5px) rotate(2.5deg);
@@ -1634,6 +1841,7 @@ div#tbCommentBodyPreview {
         -o-transform: translate(0, .5px) rotate(2.5deg);
         transform: translate(0, .5px) rotate(2.5deg)
     }
+
     84% {
         -webkit-transform: translate(0, 1.5px) rotate(2.5deg);
         -moz-transform: translate(0, 1.5px) rotate(2.5deg);
@@ -1641,6 +1849,7 @@ div#tbCommentBodyPreview {
         -o-transform: translate(0, 1.5px) rotate(2.5deg);
         transform: translate(0, 1.5px) rotate(2.5deg)
     }
+
     90% {
         -webkit-transform: translate(0, 2.5px) rotate(-.5deg);
         -moz-transform: translate(0, 2.5px) rotate(-.5deg);
@@ -1648,6 +1857,7 @@ div#tbCommentBodyPreview {
         -o-transform: translate(0, 2.5px) rotate(-.5deg);
         transform: translate(0, 2.5px) rotate(-.5deg)
     }
+
     92% {
         -webkit-transform: translate(0, .5px) rotate(-.5deg);
         -moz-transform: translate(0, .5px) rotate(-.5deg);
@@ -1655,6 +1865,7 @@ div#tbCommentBodyPreview {
         -o-transform: translate(0, .5px) rotate(-.5deg);
         transform: translate(0, .5px) rotate(-.5deg)
     }
+
     94% {
         -webkit-transform: translate(0, 2.5px) rotate(.5deg);
         -moz-transform: translate(0, 2.5px) rotate(.5deg);
@@ -1662,7 +1873,9 @@ div#tbCommentBodyPreview {
         -o-transform: translate(0, 2.5px) rotate(.5deg);
         transform: translate(0, 2.5px) rotate(.5deg)
     }
-    0%, 100% {
+
+    0%,
+    100% {
         -webkit-transform: translate(0, 0) rotate(0);
         -moz-transform: translate(0, 0) rotate(0);
         -ms-transform: translate(0, 0) rotate(0);
@@ -1672,55 +1885,74 @@ div#tbCommentBodyPreview {
 }
 
 @-o-keyframes my-face {
-    2%, 24%, 80% {
+
+    2%,
+    24%,
+    80% {
         -webkit-transform: translate(0, 1.5px) rotate(1.5deg);
         -moz-transform: translate(0, 1.5px) rotate(1.5deg);
         -ms-transform: translate(0, 1.5px) rotate(1.5deg);
         -o-transform: translate(0, 1.5px) rotate(1.5deg);
         transform: translate(0, 1.5px) rotate(1.5deg)
     }
-    4%, 68%, 98% {
+
+    4%,
+    68%,
+    98% {
         -webkit-transform: translate(0, -1.5px) rotate(-.5deg);
         -moz-transform: translate(0, -1.5px) rotate(-.5deg);
         -ms-transform: translate(0, -1.5px) rotate(-.5deg);
         -o-transform: translate(0, -1.5px) rotate(-.5deg);
         transform: translate(0, -1.5px) rotate(-.5deg)
     }
-    38%, 6% {
+
+    38%,
+    6% {
         -webkit-transform: translate(0, 1.5px) rotate(-1.5deg);
         -moz-transform: translate(0, 1.5px) rotate(-1.5deg);
         -ms-transform: translate(0, 1.5px) rotate(-1.5deg);
         -o-transform: translate(0, 1.5px) rotate(-1.5deg);
         transform: translate(0, 1.5px) rotate(-1.5deg)
     }
-    8%, 86% {
+
+    8%,
+    86% {
         -webkit-transform: translate(0, -1.5px) rotate(-1.5deg);
         -moz-transform: translate(0, -1.5px) rotate(-1.5deg);
         -ms-transform: translate(0, -1.5px) rotate(-1.5deg);
         -o-transform: translate(0, -1.5px) rotate(-1.5deg);
         transform: translate(0, -1.5px) rotate(-1.5deg)
     }
-    10%, 72% {
+
+    10%,
+    72% {
         -webkit-transform: translate(0, 2.5px) rotate(1.5deg);
         -moz-transform: translate(0, 2.5px) rotate(1.5deg);
         -ms-transform: translate(0, 2.5px) rotate(1.5deg);
         -o-transform: translate(0, 2.5px) rotate(1.5deg);
         transform: translate(0, 2.5px) rotate(1.5deg)
     }
-    12%, 64%, 78%, 96% {
+
+    12%,
+    64%,
+    78%,
+    96% {
         -webkit-transform: translate(0, -.5px) rotate(1.5deg);
         -moz-transform: translate(0, -.5px) rotate(1.5deg);
         -ms-transform: translate(0, -.5px) rotate(1.5deg);
         -o-transform: translate(0, -.5px) rotate(1.5deg);
         transform: translate(0, -.5px) rotate(1.5deg)
     }
-    14%, 54% {
+
+    14%,
+    54% {
         -webkit-transform: translate(0, -1.5px) rotate(1.5deg);
         -moz-transform: translate(0, -1.5px) rotate(1.5deg);
         -ms-transform: translate(0, -1.5px) rotate(1.5deg);
         -o-transform: translate(0, -1.5px) rotate(1.5deg);
         transform: translate(0, -1.5px) rotate(1.5deg)
     }
+
     16% {
         -webkit-transform: translate(0, -.5px) rotate(-1.5deg);
         -moz-transform: translate(0, -.5px) rotate(-1.5deg);
@@ -1728,27 +1960,35 @@ div#tbCommentBodyPreview {
         -o-transform: translate(0, -.5px) rotate(-1.5deg);
         transform: translate(0, -.5px) rotate(-1.5deg)
     }
-    18%, 22% {
+
+    18%,
+    22% {
         -webkit-transform: translate(0, .5px) rotate(-1.5deg);
         -moz-transform: translate(0, .5px) rotate(-1.5deg);
         -ms-transform: translate(0, .5px) rotate(-1.5deg);
         -o-transform: translate(0, .5px) rotate(-1.5deg);
         transform: translate(0, .5px) rotate(-1.5deg)
     }
-    20%, 36%, 46% {
+
+    20%,
+    36%,
+    46% {
         -webkit-transform: translate(0, -1.5px) rotate(2.5deg);
         -moz-transform: translate(0, -1.5px) rotate(2.5deg);
         -ms-transform: translate(0, -1.5px) rotate(2.5deg);
         -o-transform: translate(0, -1.5px) rotate(2.5deg);
         transform: translate(0, -1.5px) rotate(2.5deg)
     }
-    26%, 50% {
+
+    26%,
+    50% {
         -webkit-transform: translate(0, .5px) rotate(.5deg);
         -moz-transform: translate(0, .5px) rotate(.5deg);
         -ms-transform: translate(0, .5px) rotate(.5deg);
         -o-transform: translate(0, .5px) rotate(.5deg);
         transform: translate(0, .5px) rotate(.5deg)
     }
+
     28% {
         -webkit-transform: translate(0, .5px) rotate(1.5deg);
         -moz-transform: translate(0, .5px) rotate(1.5deg);
@@ -1756,20 +1996,29 @@ div#tbCommentBodyPreview {
         -o-transform: translate(0, .5px) rotate(1.5deg);
         transform: translate(0, .5px) rotate(1.5deg)
     }
-    30%, 40%, 62%, 76%, 88% {
+
+    30%,
+    40%,
+    62%,
+    76%,
+    88% {
         -webkit-transform: translate(0, -.5px) rotate(2.5deg);
         -moz-transform: translate(0, -.5px) rotate(2.5deg);
         -ms-transform: translate(0, -.5px) rotate(2.5deg);
         -o-transform: translate(0, -.5px) rotate(2.5deg);
         transform: translate(0, -.5px) rotate(2.5deg)
     }
-    32%, 34%, 66% {
+
+    32%,
+    34%,
+    66% {
         -webkit-transform: translate(0, 1.5px) rotate(-.5deg);
         -moz-transform: translate(0, 1.5px) rotate(-.5deg);
         -ms-transform: translate(0, 1.5px) rotate(-.5deg);
         -o-transform: translate(0, 1.5px) rotate(-.5deg);
         transform: translate(0, 1.5px) rotate(-.5deg)
     }
+
     42% {
         -webkit-transform: translate(0, 2.5px) rotate(-1.5deg);
         -moz-transform: translate(0, 2.5px) rotate(-1.5deg);
@@ -1777,27 +2026,36 @@ div#tbCommentBodyPreview {
         -o-transform: translate(0, 2.5px) rotate(-1.5deg);
         transform: translate(0, 2.5px) rotate(-1.5deg)
     }
-    44%, 70% {
+
+    44%,
+    70% {
         -webkit-transform: translate(0, 1.5px) rotate(.5deg);
         -moz-transform: translate(0, 1.5px) rotate(.5deg);
         -ms-transform: translate(0, 1.5px) rotate(.5deg);
         -o-transform: translate(0, 1.5px) rotate(.5deg);
         transform: translate(0, 1.5px) rotate(.5deg)
     }
-    48%, 74%, 82% {
+
+    48%,
+    74%,
+    82% {
         -webkit-transform: translate(0, -.5px) rotate(.5deg);
         -moz-transform: translate(0, -.5px) rotate(.5deg);
         -ms-transform: translate(0, -.5px) rotate(.5deg);
         -o-transform: translate(0, -.5px) rotate(.5deg);
         transform: translate(0, -.5px) rotate(.5deg)
     }
-    52%, 56%, 60% {
+
+    52%,
+    56%,
+    60% {
         -webkit-transform: translate(0, 2.5px) rotate(2.5deg);
         -moz-transform: translate(0, 2.5px) rotate(2.5deg);
         -ms-transform: translate(0, 2.5px) rotate(2.5deg);
         -o-transform: translate(0, 2.5px) rotate(2.5deg);
         transform: translate(0, 2.5px) rotate(2.5deg)
     }
+
     58% {
         -webkit-transform: translate(0, .5px) rotate(2.5deg);
         -moz-transform: translate(0, .5px) rotate(2.5deg);
@@ -1805,6 +2063,7 @@ div#tbCommentBodyPreview {
         -o-transform: translate(0, .5px) rotate(2.5deg);
         transform: translate(0, .5px) rotate(2.5deg)
     }
+
     84% {
         -webkit-transform: translate(0, 1.5px) rotate(2.5deg);
         -moz-transform: translate(0, 1.5px) rotate(2.5deg);
@@ -1812,6 +2071,7 @@ div#tbCommentBodyPreview {
         -o-transform: translate(0, 1.5px) rotate(2.5deg);
         transform: translate(0, 1.5px) rotate(2.5deg)
     }
+
     90% {
         -webkit-transform: translate(0, 2.5px) rotate(-.5deg);
         -moz-transform: translate(0, 2.5px) rotate(-.5deg);
@@ -1819,6 +2079,7 @@ div#tbCommentBodyPreview {
         -o-transform: translate(0, 2.5px) rotate(-.5deg);
         transform: translate(0, 2.5px) rotate(-.5deg)
     }
+
     92% {
         -webkit-transform: translate(0, .5px) rotate(-.5deg);
         -moz-transform: translate(0, .5px) rotate(-.5deg);
@@ -1826,6 +2087,7 @@ div#tbCommentBodyPreview {
         -o-transform: translate(0, .5px) rotate(-.5deg);
         transform: translate(0, .5px) rotate(-.5deg)
     }
+
     94% {
         -webkit-transform: translate(0, 2.5px) rotate(.5deg);
         -moz-transform: translate(0, 2.5px) rotate(.5deg);
@@ -1833,7 +2095,9 @@ div#tbCommentBodyPreview {
         -o-transform: translate(0, 2.5px) rotate(.5deg);
         transform: translate(0, 2.5px) rotate(.5deg)
     }
-    0%, 100% {
+
+    0%,
+    100% {
         -webkit-transform: translate(0, 0) rotate(0);
         -moz-transform: translate(0, 0) rotate(0);
         -ms-transform: translate(0, 0) rotate(0);
@@ -1843,55 +2107,74 @@ div#tbCommentBodyPreview {
 }
 
 @keyframes my-face {
-    2%, 24%, 80% {
+
+    2%,
+    24%,
+    80% {
         -webkit-transform: translate(0, 1.5px) rotate(1.5deg);
         -moz-transform: translate(0, 1.5px) rotate(1.5deg);
         -ms-transform: translate(0, 1.5px) rotate(1.5deg);
         -o-transform: translate(0, 1.5px) rotate(1.5deg);
         transform: translate(0, 1.5px) rotate(1.5deg)
     }
-    4%, 68%, 98% {
+
+    4%,
+    68%,
+    98% {
         -webkit-transform: translate(0, -1.5px) rotate(-.5deg);
         -moz-transform: translate(0, -1.5px) rotate(-.5deg);
         -ms-transform: translate(0, -1.5px) rotate(-.5deg);
         -o-transform: translate(0, -1.5px) rotate(-.5deg);
         transform: translate(0, -1.5px) rotate(-.5deg)
     }
-    38%, 6% {
+
+    38%,
+    6% {
         -webkit-transform: translate(0, 1.5px) rotate(-1.5deg);
         -moz-transform: translate(0, 1.5px) rotate(-1.5deg);
         -ms-transform: translate(0, 1.5px) rotate(-1.5deg);
         -o-transform: translate(0, 1.5px) rotate(-1.5deg);
         transform: translate(0, 1.5px) rotate(-1.5deg)
     }
-    8%, 86% {
+
+    8%,
+    86% {
         -webkit-transform: translate(0, -1.5px) rotate(-1.5deg);
         -moz-transform: translate(0, -1.5px) rotate(-1.5deg);
         -ms-transform: translate(0, -1.5px) rotate(-1.5deg);
         -o-transform: translate(0, -1.5px) rotate(-1.5deg);
         transform: translate(0, -1.5px) rotate(-1.5deg)
     }
-    10%, 72% {
+
+    10%,
+    72% {
         -webkit-transform: translate(0, 2.5px) rotate(1.5deg);
         -moz-transform: translate(0, 2.5px) rotate(1.5deg);
         -ms-transform: translate(0, 2.5px) rotate(1.5deg);
         -o-transform: translate(0, 2.5px) rotate(1.5deg);
         transform: translate(0, 2.5px) rotate(1.5deg)
     }
-    12%, 64%, 78%, 96% {
+
+    12%,
+    64%,
+    78%,
+    96% {
         -webkit-transform: translate(0, -.5px) rotate(1.5deg);
         -moz-transform: translate(0, -.5px) rotate(1.5deg);
         -ms-transform: translate(0, -.5px) rotate(1.5deg);
         -o-transform: translate(0, -.5px) rotate(1.5deg);
         transform: translate(0, -.5px) rotate(1.5deg)
     }
-    14%, 54% {
+
+    14%,
+    54% {
         -webkit-transform: translate(0, -1.5px) rotate(1.5deg);
         -moz-transform: translate(0, -1.5px) rotate(1.5deg);
         -ms-transform: translate(0, -1.5px) rotate(1.5deg);
         -o-transform: translate(0, -1.5px) rotate(1.5deg);
         transform: translate(0, -1.5px) rotate(1.5deg)
     }
+
     16% {
         -webkit-transform: translate(0, -.5px) rotate(-1.5deg);
         -moz-transform: translate(0, -.5px) rotate(-1.5deg);
@@ -1899,27 +2182,35 @@ div#tbCommentBodyPreview {
         -o-transform: translate(0, -.5px) rotate(-1.5deg);
         transform: translate(0, -.5px) rotate(-1.5deg)
     }
-    18%, 22% {
+
+    18%,
+    22% {
         -webkit-transform: translate(0, .5px) rotate(-1.5deg);
         -moz-transform: translate(0, .5px) rotate(-1.5deg);
         -ms-transform: translate(0, .5px) rotate(-1.5deg);
         -o-transform: translate(0, .5px) rotate(-1.5deg);
         transform: translate(0, .5px) rotate(-1.5deg)
     }
-    20%, 36%, 46% {
+
+    20%,
+    36%,
+    46% {
         -webkit-transform: translate(0, -1.5px) rotate(2.5deg);
         -moz-transform: translate(0, -1.5px) rotate(2.5deg);
         -ms-transform: translate(0, -1.5px) rotate(2.5deg);
         -o-transform: translate(0, -1.5px) rotate(2.5deg);
         transform: translate(0, -1.5px) rotate(2.5deg)
     }
-    26%, 50% {
+
+    26%,
+    50% {
         -webkit-transform: translate(0, .5px) rotate(.5deg);
         -moz-transform: translate(0, .5px) rotate(.5deg);
         -ms-transform: translate(0, .5px) rotate(.5deg);
         -o-transform: translate(0, .5px) rotate(.5deg);
         transform: translate(0, .5px) rotate(.5deg)
     }
+
     28% {
         -webkit-transform: translate(0, .5px) rotate(1.5deg);
         -moz-transform: translate(0, .5px) rotate(1.5deg);
@@ -1927,20 +2218,29 @@ div#tbCommentBodyPreview {
         -o-transform: translate(0, .5px) rotate(1.5deg);
         transform: translate(0, .5px) rotate(1.5deg)
     }
-    30%, 40%, 62%, 76%, 88% {
+
+    30%,
+    40%,
+    62%,
+    76%,
+    88% {
         -webkit-transform: translate(0, -.5px) rotate(2.5deg);
         -moz-transform: translate(0, -.5px) rotate(2.5deg);
         -ms-transform: translate(0, -.5px) rotate(2.5deg);
         -o-transform: translate(0, -.5px) rotate(2.5deg);
         transform: translate(0, -.5px) rotate(2.5deg)
     }
-    32%, 34%, 66% {
+
+    32%,
+    34%,
+    66% {
         -webkit-transform: translate(0, 1.5px) rotate(-.5deg);
         -moz-transform: translate(0, 1.5px) rotate(-.5deg);
         -ms-transform: translate(0, 1.5px) rotate(-.5deg);
         -o-transform: translate(0, 1.5px) rotate(-.5deg);
         transform: translate(0, 1.5px) rotate(-.5deg)
     }
+
     42% {
         -webkit-transform: translate(0, 2.5px) rotate(-1.5deg);
         -moz-transform: translate(0, 2.5px) rotate(-1.5deg);
@@ -1948,27 +2248,36 @@ div#tbCommentBodyPreview {
         -o-transform: translate(0, 2.5px) rotate(-1.5deg);
         transform: translate(0, 2.5px) rotate(-1.5deg)
     }
-    44%, 70% {
+
+    44%,
+    70% {
         -webkit-transform: translate(0, 1.5px) rotate(.5deg);
         -moz-transform: translate(0, 1.5px) rotate(.5deg);
         -ms-transform: translate(0, 1.5px) rotate(.5deg);
         -o-transform: translate(0, 1.5px) rotate(.5deg);
         transform: translate(0, 1.5px) rotate(.5deg)
     }
-    48%, 74%, 82% {
+
+    48%,
+    74%,
+    82% {
         -webkit-transform: translate(0, -.5px) rotate(.5deg);
         -moz-transform: translate(0, -.5px) rotate(.5deg);
         -ms-transform: translate(0, -.5px) rotate(.5deg);
         -o-transform: translate(0, -.5px) rotate(.5deg);
         transform: translate(0, -.5px) rotate(.5deg)
     }
-    52%, 56%, 60% {
+
+    52%,
+    56%,
+    60% {
         -webkit-transform: translate(0, 2.5px) rotate(2.5deg);
         -moz-transform: translate(0, 2.5px) rotate(2.5deg);
         -ms-transform: translate(0, 2.5px) rotate(2.5deg);
         -o-transform: translate(0, 2.5px) rotate(2.5deg);
         transform: translate(0, 2.5px) rotate(2.5deg)
     }
+
     58% {
         -webkit-transform: translate(0, .5px) rotate(2.5deg);
         -moz-transform: translate(0, .5px) rotate(2.5deg);
@@ -1976,6 +2285,7 @@ div#tbCommentBodyPreview {
         -o-transform: translate(0, .5px) rotate(2.5deg);
         transform: translate(0, .5px) rotate(2.5deg)
     }
+
     84% {
         -webkit-transform: translate(0, 1.5px) rotate(2.5deg);
         -moz-transform: translate(0, 1.5px) rotate(2.5deg);
@@ -1983,6 +2293,7 @@ div#tbCommentBodyPreview {
         -o-transform: translate(0, 1.5px) rotate(2.5deg);
         transform: translate(0, 1.5px) rotate(2.5deg)
     }
+
     90% {
         -webkit-transform: translate(0, 2.5px) rotate(-.5deg);
         -moz-transform: translate(0, 2.5px) rotate(-.5deg);
@@ -1990,6 +2301,7 @@ div#tbCommentBodyPreview {
         -o-transform: translate(0, 2.5px) rotate(-.5deg);
         transform: translate(0, 2.5px) rotate(-.5deg)
     }
+
     92% {
         -webkit-transform: translate(0, .5px) rotate(-.5deg);
         -moz-transform: translate(0, .5px) rotate(-.5deg);
@@ -1997,6 +2309,7 @@ div#tbCommentBodyPreview {
         -o-transform: translate(0, .5px) rotate(-.5deg);
         transform: translate(0, .5px) rotate(-.5deg)
     }
+
     94% {
         -webkit-transform: translate(0, 2.5px) rotate(.5deg);
         -moz-transform: translate(0, 2.5px) rotate(.5deg);
@@ -2004,7 +2317,9 @@ div#tbCommentBodyPreview {
         -o-transform: translate(0, 2.5px) rotate(.5deg);
         transform: translate(0, 2.5px) rotate(.5deg)
     }
-    0%, 100% {
+
+    0%,
+    100% {
         -webkit-transform: translate(0, 0) rotate(0);
         -moz-transform: translate(0, 0) rotate(0);
         -ms-transform: translate(0, 0) rotate(0);
@@ -2027,11 +2342,14 @@ div#tbCommentBodyPreview {
     line-height: 1.6
 }
 
-.postBody p, .postCon p {
+.postBody p,
+.postCon p {
     margin: 0 auto 1em
 }
 
-.postCon a:active, .postCon a:link, .postCon a:visited {
+.postCon a:active,
+.postCon a:link,
+.postCon a:visited {
     color: #9EABB3
 }
 
@@ -2039,7 +2357,8 @@ div#tbCommentBodyPreview {
     color: #98a0a4
 }
 
-.postBody ul, .postCon ul {
+.postBody ul,
+.postCon ul {
     margin-left: 2em
 }
 
@@ -2058,10 +2377,12 @@ div#tbCommentBodyPreview {
 
 #cnblogs_post_body img {
     max-width: 700px;
-    margin: 10px 0px;
+    display: block;
+    margin: 5px auto;
 }
 
-#cnblogs_post_body img, .cnblogs-post-body img {
+#cnblogs_post_body img,
+.cnblogs-post-body img {
     max-width: 100% !important;
     height: auto;
 }
@@ -2112,7 +2433,8 @@ div#tbCommentBodyPreview {
     padding: 10px
 }
 
-.page-title, .sb-title {
+.page-title,
+.sb-title {
     letter-spacing: -1px;
     font-weight: 700;
     color: #fff;
@@ -2140,20 +2462,53 @@ div#tbCommentBodyPreview {
 }
 
 @keyframes pageTitleText {
-    0% {text-shadow: 2px 0 0 tomato;}
-    10%{text-shadow: -2px -2px 0 gold;}
-    20% {text-shadow: 2px 0 0 lime;}
-    30% {text-shadow: 2px 0 0 turquoise;}
-    40% {text-shadow: 2px 2px 0 tomato;}
-    50%{text-shadow:  0 -2px 0 gold;}
-    60% {text-shadow: 0 2px 0 lime;}
-    70% {text-shadow: 2px 0 0 turquoise;}
-    80% {text-shadow: 2px -4px 0 tomato;}
-    90%{text-shadow: 2px 2px 0 gold;}
-    100% {text-shadow: 2px 0 0 lime;}
+    0% {
+        text-shadow: 2px 0 0 tomato;
+    }
+
+    10% {
+        text-shadow: -2px -2px 0 gold;
+    }
+
+    20% {
+        text-shadow: 2px 0 0 lime;
+    }
+
+    30% {
+        text-shadow: 2px 0 0 turquoise;
+    }
+
+    40% {
+        text-shadow: 2px 2px 0 tomato;
+    }
+
+    50% {
+        text-shadow: 0 -2px 0 gold;
+    }
+
+    60% {
+        text-shadow: 0 2px 0 lime;
+    }
+
+    70% {
+        text-shadow: 2px 0 0 turquoise;
+    }
+
+    80% {
+        text-shadow: 2px -4px 0 tomato;
+    }
+
+    90% {
+        text-shadow: 2px 2px 0 gold;
+    }
+
+    100% {
+        text-shadow: 2px 0 0 lime;
+    }
 }
 
-#footer .footer-text, .page-description {
+#footer .footer-text,
+.page-description {
     font-family: 'Long Cang', cursive
 }
 
@@ -2170,7 +2525,8 @@ div#tbCommentBodyPreview {
     align-items: center;
 }
 
-.page-author, .page-description {
+.page-author,
+.page-description {
     margin: 0;
     letter-spacing: .01rem;
     color: rgba(255, 255, 255, .8);
@@ -2218,7 +2574,9 @@ div#tbCommentBodyPreview {
     text-decoration: none !important
 }
 
-.hidden, .m-list-title, .post-del-title {
+.hidden,
+.m-list-title,
+.post-del-title {
     display: none
 }
 
@@ -2241,14 +2599,21 @@ div#tbCommentBodyPreview {
 }
 
 @-webkit-keyframes bounce {
-    0%, 10%, 25%, 40%, 50% {
+
+    0%,
+    10%,
+    25%,
+    40%,
+    50% {
         -webkit-transform: translateY(0) rotate(-90deg);
         transform: translateY(0) rotate(-90deg)
     }
+
     20% {
         -webkit-transform: translateY(-10px) rotate(-90deg);
         transform: translateY(-10px) rotate(-90deg)
     }
+
     30% {
         -webkit-transform: translateY(-5px) rotate(-90deg);
         transform: translateY(-5px) rotate(-90deg)
@@ -2256,14 +2621,21 @@ div#tbCommentBodyPreview {
 }
 
 @keyframes bounce {
-    0%, 10%, 25%, 40%, 50% {
+
+    0%,
+    10%,
+    25%,
+    40%,
+    50% {
         -webkit-transform: translateY(0) rotate(-90deg);
         transform: translateY(0) rotate(-90deg)
     }
+
     20% {
         -webkit-transform: translateY(-10px) rotate(-90deg);
         transform: translateY(-10px) rotate(-90deg)
     }
+
     30% {
         -webkit-transform: translateY(-5px) rotate(-90deg);
         transform: translateY(-5px) rotate(-90deg)
@@ -2276,6 +2648,7 @@ div#tbCommentBodyPreview {
         -webkit-transform: translateY(-10px);
         transform: translateY(-10px)
     }
+
     100% {
         opacity: 1;
         -webkit-transform: translateY(0);
@@ -2289,6 +2662,7 @@ div#tbCommentBodyPreview {
         -webkit-transform: translateY(-10px);
         transform: translateY(-10px)
     }
+
     100% {
         opacity: 1;
         -webkit-transform: translateY(0);
@@ -2326,7 +2700,8 @@ div#tbCommentBodyPreview {
     top: 1px
 }
 
-#introduce div, #rightMenu {
+#introduce div,
+#rightMenu {
     right: 10px;
     text-align: center
 }
@@ -2336,7 +2711,7 @@ div#tbCommentBodyPreview {
     cursor: pointer
 }
 
-.m-list-title > span {
+.m-list-title>span {
     display: block;
     width: 74px;
     text-align: center;
@@ -2430,16 +2805,15 @@ div#tbCommentBodyPreview {
 /*    opacity: .6*/
 /*}*/
 
-#cnblogs_post_body h6, blockquote {
-    border-left: 3px solid rgba(84,104,255,.8) !important;
+#cnblogs_post_body h6,
+blockquote {
+    border-left: 3px solid rgba(84, 104, 255, .8) !important;
     border-right: none !important;
     border-top: none !important;
     border-bottom: none !important;
     padding: 15px !important;
     background-color: #f7f7f7 !important;
-    background-image: linear-gradient(
-            180deg
-            ,#fff,#f5f5fa) !important;
+    background-image: linear-gradient(180deg, #fff, #f5f5fa) !important;
     --text-opacity: 1 !important;
     color: #484c7a !important;
     box-shadow: 0 4px 11px 0 rgb(37 44 97 / 9%), 0 1px 3px 0 rgb(93 100 148 / 6%) !important;
@@ -2468,16 +2842,21 @@ blockquote p {
     padding-left: 0
 }
 
-.postBody li, .postCon li {
+.postBody li,
+.postCon li {
     list-style-type: disc;
     margin-bottom: .5em
 }
 
-#commentform_title, .entrylistTitle, .feedback_area_title {
+#commentform_title,
+.entrylistTitle,
+.feedback_area_title {
     border-bottom: none
 }
 
-#commentform_title:after, .entrylistTitle:after, .feedback_area_title:after {
+#commentform_title:after,
+.entrylistTitle:after,
+.feedback_area_title:after {
     content: '';
     display: block;
     width: 100%;
@@ -2491,7 +2870,8 @@ blockquote p {
     left: 200px
 }
 
-#commentform_title:after, .feedback_area_title:after {
+#commentform_title:after,
+.feedback_area_title:after {
     left: 80px
 }
 
@@ -2537,7 +2917,8 @@ div#rightMenu .rightMenuItem {
     margin-top: 5px;
 }
 
-#div_digg .diggit, #div_digg .buryit  {
+#div_digg .diggit,
+#div_digg .buryit {
     text-align: center;
     cursor: pointer;
     padding-top: 0;
@@ -2561,7 +2942,8 @@ div#rightMenu .rightMenuItem {
     color: #6b7280;
 }
 
-#div_digg .diggit i,  #div_digg .buryit i {
+#div_digg .diggit i,
+#div_digg .buryit i {
     display: block;
     font-size: 18px;
     font-weight: bold;
@@ -2608,11 +2990,17 @@ div#rightMenu .rightMenuItem {
     background-image: linear-gradient(180deg, #fff, #f5f5fa)
 }
 
-#attention i, #rightBuryit i, #rightDiggit i, #toUpDownI i, #rtaDirectory i, #rightMenuHome i {
+#attention i,
+#rightBuryit i,
+#rightDiggit i,
+#toUpDownI i,
+#rtaDirectory i,
+#rightMenuHome i {
     font-weight: 600
 }
 
-#rightDashang .rightMenuSpan, #rightGzh .rightMenuSpan {
+#rightDashang .rightMenuSpan,
+#rightGzh .rightMenuSpan {
     position: absolute;
     left: -156px;
     font-size: 14px;
@@ -2633,8 +3021,7 @@ div#rightMenu .rightMenuItem {
 #rightMenuHome .rightMenuSpan,
 #rightMenuSite .rightMenuSpan,
 #rtaDirectory .rightMenuSpan,
-#toUpDown .rightMenuSpan
-{
+#toUpDown .rightMenuSpan {
     position: absolute;
     left: -95px;
     font-size: 14px;
@@ -2660,8 +3047,7 @@ div#rightMenu .rightMenuItem {
 #rightMenuHome .rightMenuSpan::before,
 #rightMenuSite .rightMenuSpan::before,
 #rtaDirectory .rightMenuSpan::before,
-#toUpDown .rightMenuSpan::before
-{
+#toUpDown .rightMenuSpan::before {
     background-attachment: scroll;
     background-clip: border-box;
     background-color: #1b1c1d;
@@ -2693,7 +3079,9 @@ div#rightMenu .rightMenuItem {
     text-align: center
 }
 
-.ds-alipay, .ds-gzh, .ds-wecat {
+.ds-alipay,
+.ds-gzh,
+.ds-wecat {
     cursor: pointer;
     text-align: center;
     width: 140px;
@@ -2707,13 +3095,17 @@ div#rightMenu .rightMenuItem {
     background: #fff
 }
 
-.ds-alipay img, .ds-gzh img, .ds-wecat img {
+.ds-alipay img,
+.ds-gzh img,
+.ds-wecat img {
     width: 100%;
     height: 100%;
     border-radius: 6px
 }
 
-.ds-alipay span, .ds-gzh span, .ds-wecat span {
+.ds-alipay span,
+.ds-gzh span,
+.ds-wecat span {
     position: absolute;
     font-family: 'Ubuntu Mono', monospace;
     left: -32px;
@@ -2733,7 +3125,10 @@ div#rightMenu .rightMenuItem {
     -o-transform: rotate(90deg)
 }
 
-#cnblogs_post_body table td, #cnblogs_post_body table th, .feedbackCon table td, .feedbackCon table th {
+#cnblogs_post_body table td,
+#cnblogs_post_body table th,
+.feedbackCon table td,
+.feedbackCon table th {
     height: 40px;
     box-sizing: border-box;
     background-clip: padding-box;
@@ -2748,7 +3143,8 @@ div#rightMenu .rightMenuItem {
     top: 2px
 }
 
-.cnblogs-markdown .cnblogs_code_copy a, .rightBuryitSpan {
+.cnblogs-markdown .cnblogs_code_copy a,
+.rightBuryitSpan {
     top: 0
 }
 
@@ -2760,7 +3156,8 @@ div#rightMenu .rightMenuItem {
     top: 3px
 }
 
-#cnblogs_post_body table, .feedbackCon table {
+#cnblogs_post_body table,
+.feedbackCon table {
     position: relative;
     overflow: hidden !important;
     box-sizing: border-box;
@@ -2781,11 +3178,13 @@ div#rightMenu .rightMenuItem {
     margin: 10px 0
 }
 
-#cnblogs_post_body table tr, .feedbackCon table tr {
+#cnblogs_post_body table tr,
+.feedbackCon table tr {
     border: 0
 }
 
-#cnblogs_post_body table th, .feedbackCon table th {
+#cnblogs_post_body table th,
+.feedbackCon table th {
     border-bottom: 1px solid #dfe3ec;
     border-right: 1px solid #dfe3ec;
     background-color: #eef0f6;
@@ -2795,7 +3194,8 @@ div#rightMenu .rightMenuItem {
     min-width: 100px
 }
 
-#cnblogs_post_body table td, .feedbackCon table td {
+#cnblogs_post_body table td,
+.feedbackCon table td {
     border-bottom: 1px solid #dfe6ec;
     border-right: 1px solid #dfe3ec;
     min-width: 0;
@@ -2803,7 +3203,7 @@ div#rightMenu .rightMenuItem {
     padding: 0 20px
 }
 
-#cnblogs_post_body > p {
+#cnblogs_post_body>p {
     margin: 13px auto;
     padding: 0;
     font-family: "SimSun", -apple-system, BlinkMacSystemFont, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -2848,11 +3248,15 @@ div#rightMenu .rightMenuItem {
 }
 
 
-.cnblogs_code, pre {
+.cnblogs_code,
+pre {
     font-size: 14px !important
 }
 
-.cnblogs_code, .cnblogs_code span, pre, .cnblogs_code pre {
+.cnblogs_code,
+.cnblogs_code span,
+pre,
+.cnblogs_code pre {
     font-family: "Source Code Pro", Consolas, Menlo, Monaco, "Courier New", monospace !important;
     font-weight: 400
 }
@@ -2863,7 +3267,12 @@ div#rightMenu .rightMenuItem {
     min-height: 34px
 }
 
-.dev__developer, .dev__fe, .dev__fe i, .dev__slash, .dev__ux, .dev__ux i {
+.dev__developer,
+.dev__fe,
+.dev__fe i,
+.dev__slash,
+.dev__ux,
+.dev__ux i {
     transition: all .6s cubic-bezier(.555, -.375, 0, 1.615)
 }
 
@@ -2886,7 +3295,12 @@ div#rightMenu .rightMenuItem {
     transform: scale(.9) rotateZ(0)
 }
 
-.header__dev--slow .dev__developer, .header__dev--slow .dev__fe, .header__dev--slow .dev__fe i, .header__dev--slow .dev__slash, .header__dev--slow .dev__ux, .header__dev--slow .dev__ux i {
+.header__dev--slow .dev__developer,
+.header__dev--slow .dev__fe,
+.header__dev--slow .dev__fe i,
+.header__dev--slow .dev__slash,
+.header__dev--slow .dev__ux,
+.header__dev--slow .dev__ux i {
     transition: all 1.2s cubic-bezier(.555, -.375, 0, 1.615)
 }
 
@@ -2904,11 +3318,24 @@ div#rightMenu .rightMenuItem {
     color: #888;
 }
 
-#comment_nav, #header, #leftcontentcontainer, #profile_block, #top_nav, .catListTitle {
+#comment_nav,
+#header,
+#leftcontentcontainer,
+#profile_block,
+#top_nav,
+.catListTitle {
     display: none !important
 }
 
-#ad_c1, #ad_c2, #ad_t1, #ad_t2, #cnblogs_c1, #cnblogs_c2, #commentform_title a, #under_post_kb, #under_post_news {
+#ad_c1,
+#ad_c2,
+#ad_t1,
+#ad_t2,
+#cnblogs_c1,
+#cnblogs_c2,
+#commentform_title a,
+#under_post_kb,
+#under_post_news {
     display: none
 }
 
@@ -2920,7 +3347,8 @@ div#rightMenu .rightMenuItem {
     z-index: 998
 }
 
-span.cnblogs_code, #home code:not([class]) {
+span.cnblogs_code,
+#home code:not([class]) {
     border: 0;
     padding: 2px 4px;
     color: #D83B64;
@@ -2966,7 +3394,8 @@ pre .line-numbers-rows {
     color: #999;
 }
 
-.code-pre-line, code-box {
+.code-pre-line,
+code-box {
     position: relative;
     display: block
 }
@@ -3004,7 +3433,7 @@ code-box .code-tools {
     align-items: center;
     overflow: hidden;
     min-height: 1.2rem;
-    color: rgba(238,255,255,0.8);
+    color: rgba(238, 255, 255, 0.8);
     font-size: 14px;
     border-radius: 4px 4px 0 0;
     height: 16px;
@@ -3090,7 +3519,9 @@ pre .line-numbers-rows:before {
     display: inline
 }
 
-#sideToolbar, .cnblogs_code_copy img, .list .out .icontd {
+#sideToolbar,
+.cnblogs_code_copy img,
+.list .out .icontd {
     display: none
 }
 
@@ -3108,21 +3539,29 @@ pre .line-numbers-rows:before {
     position: absolute
 }
 
-.code_img_closed, .code_img_opened {
+.code_img_closed,
+.code_img_opened {
     cursor: pointer
 }
 
-.cnblogs_code_toolbar a:active, .cnblogs_code_toolbar a:hover, .cnblogs_code_toolbar a:link, .cnblogs_code_toolbar a:link img, .cnblogs_code_toolbar a:visited, .cnblogs_code_toolbar a:visited img {
+.cnblogs_code_toolbar a:active,
+.cnblogs_code_toolbar a:hover,
+.cnblogs_code_toolbar a:link,
+.cnblogs_code_toolbar a:link img,
+.cnblogs_code_toolbar a:visited,
+.cnblogs_code_toolbar a:visited img {
     background-color: transparent !important;
     border: none !important
 }
 
-.cnblogs-markdown code, .cnblogs-post-body code {
+.cnblogs-markdown code,
+.cnblogs-post-body code {
     background-color: unset !important;
     border: 0 !important
 }
 
-.postBody .cnblogs-markdown code:not(.language-env), .postBody .cnblogs-post-body code:not(.language-env) {
+.postBody .cnblogs-markdown code:not(.language-env),
+.postBody .cnblogs-post-body code:not(.language-env) {
     padding: 2px 4px !important;
     color: #d83b64;
     background-color: #f9f2f4 !important;
@@ -3136,11 +3575,11 @@ pre .line-numbers-rows:before {
     font-family: "Ubuntu Mono", monospace !important
 }
 
-#cnblogs_post_body > pre .cnblogs_code_copy a {
+#cnblogs_post_body>pre .cnblogs_code_copy a {
     right: 5px
 }
 
-#cnblogs_post_body > pre {
+#cnblogs_post_body>pre {
     margin: 10px 15px !important
 }
 
@@ -3201,7 +3640,8 @@ pre .line-numbers-rows:before {
     background-color: #6fa3ef
 }
 
-a[name=top], div#loading {
+a[name=top],
+div#loading {
     background-color: #f0f0f0;
     z-index: 1099;
     position: fixed;
@@ -3238,7 +3678,12 @@ a[name=top], div#loading {
     display: none;
 }
 
-#btn_comment_submit, a#green_channel_digg, a#green_channel_favorite, a#green_channel_follow, a#green_channel_wechat, a#green_channel_weibo {
+#btn_comment_submit,
+a#green_channel_digg,
+a#green_channel_favorite,
+a#green_channel_follow,
+a#green_channel_wechat,
+a#green_channel_weibo {
     text-decoration: none;
     color: #fff;
     margin: 10px auto auto;
@@ -3260,11 +3705,19 @@ a[name=top], div#loading {
     background-image: none
 }
 
-a#green_channel_digg:hover, a#green_channel_favorite:hover, a#green_channel_follow:hover, a#green_channel_wechat:hover, a#green_channel_weibo:hover {
+a#green_channel_digg:hover,
+a#green_channel_favorite:hover,
+a#green_channel_follow:hover,
+a#green_channel_wechat:hover,
+a#green_channel_weibo:hover {
     transform: scale(1.02, 1.02)
 }
 
-a#green_channel_digg:active, a#green_channel_favorite:active, a#green_channel_follow:active, a#green_channel_wechat:active, a#green_channel_weibo:active {
+a#green_channel_digg:active,
+a#green_channel_favorite:active,
+a#green_channel_follow:active,
+a#green_channel_wechat:active,
+a#green_channel_weibo:active {
     transform: scale(.95, .95);
     transition: all .4s -125ms
 }
@@ -3315,10 +3768,16 @@ div#green_channel img {
 }
 
 @keyframes beating {
-    0%, 100%, 30%, 70% {
+
+    0%,
+    100%,
+    30%,
+    70% {
         transform: scale(1)
     }
-    20%, 50% {
+
+    20%,
+    50% {
         transform: scale(1.6)
     }
 }
@@ -3379,7 +3838,9 @@ footer footer-background figure {
     width: 100%
 }
 
-footer footer-background .background, footer footer-background .clouds, footer footer-background .foreground {
+footer footer-background .background,
+footer footer-background .clouds,
+footer footer-background .foreground {
     right: 0;
     bottom: 0;
     left: 0;
@@ -3402,7 +3863,7 @@ footer footer-background .clouds {
     top: -2em !important
 }
 
-table#blogCalendar > tbody > tr > td > a {
+table#blogCalendar>tbody>tr>td>a {
     color: #bbb
 }
 
@@ -3457,49 +3918,89 @@ table#blogCalendar > tbody > tr > td > a {
 }
 
 @-moz-keyframes iconAnimate {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: scale(1)
     }
-    10%, 30% {
+
+    10%,
+    30% {
         transform: scale(.9)
     }
-    20%, 40%, 50%, 60%, 70%, 80% {
+
+    20%,
+    40%,
+    50%,
+    60%,
+    70%,
+    80% {
         transform: scale(1.1)
     }
 }
 
 @-webkit-keyframes iconAnimate {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: scale(1)
     }
-    10%, 30% {
+
+    10%,
+    30% {
         transform: scale(.9)
     }
-    20%, 40%, 50%, 60%, 70%, 80% {
+
+    20%,
+    40%,
+    50%,
+    60%,
+    70%,
+    80% {
         transform: scale(1.1)
     }
 }
 
 @-o-keyframes iconAnimate {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: scale(1)
     }
-    10%, 30% {
+
+    10%,
+    30% {
         transform: scale(.9)
     }
-    20%, 40%, 50%, 60%, 70%, 80% {
+
+    20%,
+    40%,
+    50%,
+    60%,
+    70%,
+    80% {
         transform: scale(1.1)
     }
 }
 
 @keyframes iconAnimate {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: scale(1)
     }
-    10%, 30% {
+
+    10%,
+    30% {
         transform: scale(.9)
     }
-    20%, 40%, 50%, 60%, 70%, 80% {
+
+    20%,
+    40%,
+    50%,
+    60%,
+    70%,
+    80% {
         transform: scale(1.1)
     }
 }
@@ -3694,15 +4195,19 @@ table#blogCalendar > tbody > tr > td > a {
     0% {
         transform: translate(5px, 30px) scale(.3)
     }
+
     20% {
         transform: translate(8px, 17px) scale(.3)
     }
+
     50% {
         transform: translate(10px, 0) scale(.3)
     }
+
     80% {
         transform: translate(8px, -17px) scale(.3)
     }
+
     100% {
         transform: translate(5px, -30px) scale(.3)
     }
@@ -3712,15 +4217,19 @@ table#blogCalendar > tbody > tr > td > a {
     0% {
         transform: translate(10px, 30px) scale(.6)
     }
+
     20% {
         transform: translate(13px, 17px) scale(.6)
     }
+
     50% {
         transform: translate(15px, 0) scale(.6)
     }
+
     80% {
         transform: translate(13px, -17px) scale(.6)
     }
+
     100% {
         transform: translate(10px, -30px) scale(.6)
     }
@@ -3730,15 +4239,19 @@ table#blogCalendar > tbody > tr > td > a {
     0% {
         transform: translate(30px, 30px) scale(.9)
     }
+
     20% {
         transform: translate(33px, 17px) scale(.9)
     }
+
     50% {
         transform: translate(35px, 0) scale(.9)
     }
+
     80% {
         transform: translate(33px, -17px) scale(.9)
     }
+
     100% {
         transform: translate(30px, -30px) scale(.9)
     }
@@ -3748,15 +4261,19 @@ table#blogCalendar > tbody > tr > td > a {
     0% {
         transform: translate(25px, 30px) scale(.4)
     }
+
     20% {
         transform: translate(28px, 17px) scale(.4)
     }
+
     50% {
         transform: translate(30px, 0) scale(.4)
     }
+
     80% {
         transform: translate(28px, -17px) scale(.4)
     }
+
     100% {
         transform: translate(25px, -30px) scale(.4)
     }
@@ -3766,15 +4283,19 @@ table#blogCalendar > tbody > tr > td > a {
     0% {
         transform: translate(0, 30px) scale(.6)
     }
+
     20% {
         transform: translate(3px, 17px) scale(.6)
     }
+
     50% {
         transform: translate(5px, 0) scale(.6)
     }
+
     80% {
         transform: translate(3px, -17px) scale(.6)
     }
+
     100% {
         transform: translate(0, -30px) scale(.6)
     }
@@ -3784,27 +4305,35 @@ table#blogCalendar > tbody > tr > td > a {
     0% {
         transform: translate(15px, 30px) scale(1)
     }
+
     20% {
         transform: translate(18px, 17px) scale(1)
     }
+
     50% {
         transform: translate(20px, 0) scale(1)
     }
+
     80% {
         transform: translate(18px, -17px) scale(1)
     }
+
     100% {
         transform: translate(15px, -30px) scale(1)
     }
 }
 
 @keyframes cloudAnim {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: translatex(0)
     }
+
     14% {
         transform: translatex(5px)
     }
+
     56% {
         transform: translatex(-10px)
     }
@@ -3826,15 +4355,18 @@ table#blogCalendar > tbody > tr > td > a {
         max-width: 100vw
     }
 
-    .entrylistPosttitle a:link, .postTitle a:link {
+    .entrylistPosttitle a:link,
+    .postTitle a:link {
         font-size: 2.8rem
     }
 
-    .entrylistItemPostDesc, .postDesc {
+    .entrylistItemPostDesc,
+    .postDesc {
         font-size: 1.3rem
     }
 
-    .entrylistPosttitle, .page-title {
+    .entrylistPosttitle,
+    .page-title {
         font-size: 4rem;
         letter-spacing: -1px
     }
@@ -3844,7 +4376,8 @@ table#blogCalendar > tbody > tr > td > a {
         letter-spacing: -1px
     }
 
-    p.article-info-text > .postMeta, p.article-info-text > .postMeta i {
+    p.article-info-text>.postMeta,
+    p.article-info-text>.postMeta i {
         font-size: 15px
     }
 
@@ -3859,7 +4392,12 @@ table#blogCalendar > tbody > tr > td > a {
         line-height: 1.3em
     }
 
-    #aplayer, #evanyou, #music-box, #nhBannerAnimation, .scroll-down, body > meting-js {
+    #aplayer,
+    #evanyou,
+    #music-box,
+    #nhBannerAnimation,
+    .scroll-down,
+    body>meting-js {
         display: none !important
     }
 
@@ -3888,7 +4426,10 @@ table#blogCalendar > tbody > tr > td > a {
         display: none
     }
 
-    #bgCanvas, #homeTopCanvas, #articleSuffix .articleSuffix-left, .c_b_p_desc_img {
+    #bgCanvas,
+    #homeTopCanvas,
+    #articleSuffix .articleSuffix-left,
+    .c_b_p_desc_img {
         display: none !important
     }
 
@@ -3896,7 +4437,8 @@ table#blogCalendar > tbody > tr > td > a {
         width: calc(100% - 12px) !important;
     }
 
-    .c_b_p_desc, .entrylistPostSummary {
+    .c_b_p_desc,
+    .entrylistPostSummary {
         width: 100% !important
     }
 
@@ -3906,7 +4448,7 @@ table#blogCalendar > tbody > tr > td > a {
 }
 
 @media only screen and (max-width: 720px) {
-    #cnblogs_post_body > p {
+    #cnblogs_post_body>p {
         padding: 0 10px;
         font-size: 1em;
         line-height: 1.8em
@@ -3924,15 +4466,21 @@ table#blogCalendar > tbody > tr > td > a {
         box-shadow: unset
     }
 
-    .entrylistPosttitle a:link, .postTitle a:link {
+    .entrylistPosttitle a:link,
+    .postTitle a:link {
         font-size: 2.3rem
     }
 
-    .entrylistItemPostDesc, .entrylistPostSummary, .login_tips, .postCon, .postDesc {
+    .entrylistItemPostDesc,
+    .entrylistPostSummary,
+    .login_tips,
+    .postCon,
+    .postDesc {
         font-size: 12px
     }
 
-    .commentform, .menu-button {
+    .commentform,
+    .menu-button {
         border: none !important;
         margin: 0 !important
     }
@@ -3942,7 +4490,8 @@ table#blogCalendar > tbody > tr > td > a {
         margin: 2rem auto
     }
 
-    .entrylistPosttitle, .page-title {
+    .entrylistPosttitle,
+    .page-title {
         font-size: 2.6rem
     }
 
@@ -3964,7 +4513,17 @@ table#blogCalendar > tbody > tr > td > a {
         width: 33px !important
     }
 
-    #aplayer, #bgCanvas, #canvas, #articleSuffix, #evanyou, #homeTopCanvas, #music-box, #pageAnimationOffOn, .comment_date, .scroll-down, body > meting-js {
+    #aplayer,
+    #bgCanvas,
+    #canvas,
+    #articleSuffix,
+    #evanyou,
+    #homeTopCanvas,
+    #music-box,
+    #pageAnimationOffOn,
+    .comment_date,
+    .scroll-down,
+    body>meting-js {
         display: none !important
     }
 
@@ -3972,11 +4531,13 @@ table#blogCalendar > tbody > tr > td > a {
         font-size: 12px
     }
 
-    .postMeta > i, p.article-info-text > .postMeta, p.article-info-text > .postMeta i {
+    .postMeta>i,
+    p.article-info-text>.postMeta,
+    p.article-info-text>.postMeta i {
         font-size: 13px
     }
 
-    p.article-info-text > .postMeta br {
+    p.article-info-text>.postMeta br {
         display: inline;
     }
 
@@ -3999,7 +4560,8 @@ table#blogCalendar > tbody > tr > td > a {
         width: 95%
     }
 
-    #dayNightSwitch .onOff, #dayNightSwitch .onOff.daySwitch .sky {
+    #dayNightSwitch .onOff,
+    #dayNightSwitch .onOff.daySwitch .sky {
         width: 50px;
         height: 18px;
         border-radius: 18px
@@ -4045,6 +4607,3 @@ table#blogCalendar > tbody > tr > td > a {
 #articleDirectory ul li a {
     font-family: -apple-system, SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif;
 }
-
-
-/* 注意：需要禁用模板默认css */
